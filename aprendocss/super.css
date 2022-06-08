@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(53, 27, 19);
+}
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color:bisque;
+    text-align: center;
+    font-size: 55px;
+    background-color: tomato;
+}
+
+#verduras{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(233, 233, 233);
+    font-size: 20px;
+    flex-direction: column;
+    
+}
+#tomate{
+   width: 100px;
+   height: 100px;
+   border-radius: 8px;
+}
+
+#carnes{
+    font-family:sans-serif;
+    font-size: 20px;
+    text-align: left;
+    border-left: 10px;
+    flex-direction: column;
+    color: rgb(247, 247, 247);
+}
+
+#boton{
+    border-radius: 10px;
+    font-family: Arial;
+    height: 35px;
+}
+
+#comida2{
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+#petrosky{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titulo1{
+    background-color: coral;
+}
+
+footer{
+    text-align: center;
+    background-color:rgb(53, 53, 53);
+    color: white;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
