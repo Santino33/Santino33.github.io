@@ -2,16 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+}
 html{
     font-size: 62.5%;
 
 }
-.nombre{
-    border: 2px black;
-    background-color: rgb(8, 11, 182);
+
+.box{
+    text-align: center;
+    font-family:fantasy;
+    border: solid;
+    border-radius: 4px;
+    
 }
-.fondo img{
-    weight: 100rem;
-    height: 100rem;
+#nombre.box{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(16, 34, 194);
+    color: white;
+    border-color: rgb(63, 63, 63);
+    padding-top: 10px;
+    margin-left: 350px;
+    font-size: 1.5rem;
+    text-decoration-color: rgb(156, 10, 10);
+    text-decoration-line: overline;
+}
+#nombre.box img{
+    height: ;
+}
+#tarjeta-datos.box{
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
 }
