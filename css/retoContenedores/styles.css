@@ -33,12 +33,16 @@ html{
     width: 250px;
     height: 330px;
     margin-left: 585px;
+    background-color: rgb(238, 238, 238);
+}
+#tarjeta-datos:hover{
+    color:rgb(0, 25, 105);
 }
 
 figure{
-    width: 200px;
+    width: 185px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 160px;
 }
 figure img{
     width: 100%;
@@ -46,9 +50,16 @@ figure img{
 }
 
 #tarjeta-datos__pilotos{
+width: auto;
+height: 55px;
+padding-top: 5px;
 margin-top: -90px;
 margin-left: 20px;
 margin-right: 20px;
+background-color: rgb(23, 17, 112);
+color: white;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: unset;
 }
 
 .box #tarjeta-datos__engine{
@@ -87,7 +98,9 @@ margin-right: 20px;
     height: 100%;
    }
 
-.boton {
-    margin-top: 0px;
-    margin-left: 0px;
+.boton button:hover{
+  color: rgb(255, 6, 6);
+}
+.boton button:active{
+    color: blue;
 }
