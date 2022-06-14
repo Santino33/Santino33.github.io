@@ -12,26 +12,82 @@ html{
     text-align: center;
     font-family:fantasy;
     border: solid;
-    border-radius: 4px;
+    border-radius: 16px;
     
 }
 #nombre.box{
-    width: 100px;
-    height: 40px;
+    width: 140px;
+    height: 60px;
     background-color: rgb(16, 34, 194);
     color: white;
     border-color: rgb(63, 63, 63);
-    padding-top: 10px;
-    margin-left: 350px;
-    font-size: 1.5rem;
+    padding-top: 14px;
+    margin-left: 640px;
+    margin-top: 20px;
+    font-size: 2.5rem;
     text-decoration-color: rgb(156, 10, 10);
     text-decoration-line: overline;
 }
-#nombre.box img{
-    height: ;
+
+#tarjeta-datos{
+    width: 250px;
+    height: 330px;
+    margin-left: 585px;
 }
-#tarjeta-datos.box{
+
+figure{
     width: 200px;
-    height: 200px;
-    margin-left: 300px;
+    height: 100px;
+    margin-left: 150px;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+}
+
+#tarjeta-datos__pilotos{
+margin-top: -90px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.box #tarjeta-datos__engine{
+    width: 50px;
+    height: 50px;
+    margin-left: 95px;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+  .box #tarjeta-datos__engine img{
+      width: 100%;
+      height: 100%;
+   }
+
+.box #tarjeta-datos__aerodinamycs{
+   width: 50px;
+   height: 50px;
+   margin-top: 18px;
+   margin-left: 95px;
+   margin-bottom: 20px;
+}
+  .box #tarjeta-datos__aerodinamycs img{
+     width: 100%;
+     height: 100%;
+   }
+
+.box #tarjeta-datos__speed{
+    width: 58px;
+    height: 45px;
+    margin-top: -3px;
+    margin-left: 91.55px;
+    margin-bottom: 20px;
+}
+  .box #tarjeta-datos__speed img{
+    width: 100%;
+    height: 100%;
+   }
+
+.boton {
+    margin-top: 0px;
+    margin-left: 0px;
 }
