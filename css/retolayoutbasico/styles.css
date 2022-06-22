@@ -19,7 +19,7 @@ nav{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    margin-right: 950px;
+    margin-right: 55rem;
 }
 .otro{
     text-align: right;
@@ -27,14 +27,76 @@ nav{
     margin-left: 20px;
 }
 
+main{
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-gap: 4rem;
+    grid-auto-rows: minmax(auto, auto);
+    justify-content: center;
+    align-content: center;
+    align-items: start;
+    justify-items: start;
+}
+
 /*ADS */
 
 #ads{
-    background-color: burlywood;
-    width: 270px;
+    background-color: rgb(211, 182, 102);
+    border: 2px rgba(26, 26, 26, 0.2);
+    width: 15rem;
+    height: 33.7rem;
+    text-align: left;
+    margin-right: 0;
+    grid-column: 1;
+    grid-row: 1 / 2;
 }
-#ads.ad1{
+#ads .ad1{
+    width:6rem;
+    height: 100px;
+    background-color: dimgrey;
+    position:relative;
+    text-align: center;
+    margin-left: 5rem;
+    margin-bottom:2rem;
+}
+#ads .ad2{
     width:100px;
     height: 100px;
     background-color: dimgrey;
+    position:relative;
+     text-align: center;
+    margin-left: 5rem;
+    margin-bottom:2rem;
+}
+#ads .ad3{
+    width:100px;
+    height: 100px;
+    background-color: dimgrey;
+    position:relative;
+    text-align: center;
+    margin-left: 5rem;
+    margin-bottom:2rem;
+}
+#ads .ad4{
+    width:100px;
+    height: 100px;
+    background-color: dimgrey;
+    position:absolute;
+    text-align: center;
+    margin-left: 5rem;
+    margin-bottom:2rem;
+}
+
+#texto {
+    grid-column: 2;
+    margin-right: 6rem;
+}
+
+footer{
+    background-color:rgb(68, 68, 68);
+    text-align:center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
