@@ -17,7 +17,7 @@ html{
 /*HEADER / BARRA DE NAVEGACION*/
 
 .barra, .section1, .section2, .section3, footer{
-    min-width: 200px;
+    /* min-width: 200px; */
 }
 .barra{
     height: 10rem;
@@ -37,7 +37,6 @@ html{
     margin-left: 1rem;
     margin-right: 1rem;
     padding-top: 5rem;
-
 }
 
 /*SECCIONES DE TEXTO*/
@@ -70,8 +69,9 @@ main p{
     margin:0 auto;
     height: auto;
     background-color: #E5E5E5;
-    display: block;
+    display: flex;
     flex-grow: 1;
+    flex-direction: column;
 }
 /*CONTENEDORES DE LAS IMAGENES*/
 .section1 .unal, .Ucartagena, .Ucundinamarca, .udea{
@@ -122,9 +122,3 @@ footer{
     text-align: center;
 }
 /**/
-
-@media (min-width:600px){
-    .main h1{
-        flex-direction: column-reverse;
-    }
-}
