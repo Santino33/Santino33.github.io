@@ -14,111 +14,38 @@ html{
     font-size: 62.5%;
 }
 
-/*HEADER / BARRA DE NAVEGACION*/
-
-.barra, .section1, .section2, .section3, footer{
-    /* min-width: 200px; */
-}
-.barra{
-    height: 10rem;
-    width: auto;
-    background-color: #FCA311;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    font-family: var(--fuente-principal);
-    font-size: 1.15rem;
-}
-.barra :first-child{
-    width: auto;
-    height: 100%;
-}
-.barra li{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-top: 5rem;
-}
-
-/*SECCIONES DE TEXTO*/
-
-main{
-  
-}
-
-main h1 {
-    margin: 2rem;
-    text-align: center;
-    font-family: var(--fuente-principal);
-    font-size:2.5rem;
-    order: 1;
-    width:100%;
-}
-main p{
-    margin-left: 2rem;
-    margin-right:2rem;
-    padding-bottom:2rem;
-    font-family: var(--fuente-secundaria);
-    font-size:1.5rem;
-    width: 100%;
-}
-
-/*SECCIONES DE IMAGENES*/
-
-.section1, .section2, .section3{
-    width: 100%;
-    margin:0 auto;
-    height: auto;
-    background-color: #E5E5E5;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-}
-/*CONTENEDORES DE LAS IMAGENES*/
-.section1 .unal, .Ucartagena, .Ucundinamarca, .udea{
-    width: auto;
-    border:1px black solid;
-    border-radius: 4rem;
-    margin: 1rem;
-    text-align: center;
-}
-    .section2 .Udistrital, .uis, .Umagdalena, .Unorte{
-        width: auto;
-        border:1px black solid;
-        border-radius: 4rem;
-        margin: 1rem;
-        text-align: center;
-}
-        .section3 .uptc, .Uquindio, .Utolima, .Uvalle{
-            width: auto;
-            border:1px black solid;
-            border-radius: 4rem;
-            margin: 1rem;
-            text-align: center;
+@media (max-width: 550px){
+    .smartphone{
+        display:flex;
         
-}
-   img{
-    width: 60%;
-    height: 110%;
-    }
-/*EXCEPCIONES POR SER IMAGENES CUADRADAS*/
-    .Umagdalena img{
-    width: 7rem;}
-    .Uquindio img{
-        width: 7rem;}
-        .Utolima img{
-            width: 7rem;}
-            .Uvalle img{
-                width: 5rem;
     }
 
-/*FOOTER*/
-footer{
-    height: 7rem;
-    padding-top: 2rem;
-    background-color: #14213d;
-    color: white;
-    font-family: var(--fuente-principal);
-    font-size: 1.15rem;
-    text-align: center;
+    /*HEADER / BARRA DE NAVEGACION*/
+       nav{
+        text-align: center;
+        background-color: #fca311;
+        font-family: var(--fuente-principal);
+       }
+       .logo{
+        width: 30%;
+       }
+       .smartphone nav li{
+        display: inline-flex;
+        list-style: none;
+        margin-inline: 2rem;
+        margin-bottom: 2rem;
+       }  
+    
+       /*TEXTOS*/
+       
+        /*OTROS DISPOSITIVOS*/
+       
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    
 }
-/**/
+

@@ -1,0 +1,12 @@
+@media (min-width: 990px)
+{
+    .smartphone{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        color:rgb(1, 190, 33)
+    }
+}
