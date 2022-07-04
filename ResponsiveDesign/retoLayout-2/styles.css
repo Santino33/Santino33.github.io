@@ -17,14 +17,16 @@ html{
 @media (max-width: 550px){
     .smartphone{
         display:flex;
-        
+        flex-wrap: wrap;
     }
 
     /*HEADER / BARRA DE NAVEGACION*/
        nav{
+        width: 100%;
         text-align: center;
         background-color: #fca311;
         font-family: var(--fuente-principal);
+        font-size: 12px;
        }
        .logo{
         width: 30%;
@@ -32,12 +34,57 @@ html{
        .smartphone nav li{
         display: inline-flex;
         list-style: none;
-        margin-inline: 2rem;
+        margin-inline: 1.45rem;
         margin-bottom: 2rem;
        }  
     
        /*TEXTOS*/
+       .text{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+       }
        
+       .text h1{
+        font-family: var(--fuente-principal);
+        text-align: center;
+        font-size: 20px;
+       }
+       .text p{
+        margin: 3rem;
+        font-family: var(--fuente-secundaria);
+        font-size: 15px;
+       }
+
+       /*IMAGENES*/
+
+       .images{
+       display: flex;
+       flex-direction: column;
+       width: 60%;
+       height: 40px;
+       margin: 0 auto;
+       row-gap: 1rem;
+       }
+
+       .images img{
+        border: solid black;
+        border-radius: 25px;
+        width: auto;
+        height: auto;
+        padding: 1rem;
+       }
+
+       /*FOOTER*/
+       footer{
+        background-color: #14213d;
+        color: white;
+        font-family: var(--fuente-principal);
+        width: 100%;
+        text-align: center;
+        padding: 2rem;
+        margin-top: 205rem;
+       }
         /*OTROS DISPOSITIVOS*/
        
     .tablet{
