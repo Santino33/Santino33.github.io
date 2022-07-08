@@ -63,27 +63,26 @@ html{
        flex-direction: column;
        width: 60%;
        height: 40px;
-       margin: 0 auto;
+       margin:  auto;
        row-gap: 1rem;
        }
 
        .images img{
         border: solid black;
         border-radius: 25px;
-        width: auto;
-        height: auto;
         padding: 1rem;
        }
 
        /*FOOTER*/
-       footer{
+       .images footer{
+
         background-color: #14213d;
         color: white;
         font-family: var(--fuente-principal);
         width: 100%;
         text-align: center;
         padding: 2rem;
-        margin-top: 205rem;
+        margin-top: 2rem;
        }
         /*OTROS DISPOSITIVOS*/
        
