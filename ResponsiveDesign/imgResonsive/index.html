@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Img Responsive</title>
+</head>
+<body>
+    <main>
+        <picture>
+            <source media ="(min-width:1200px)"srcset="./grande.jpg"/>
+            <source media ="(min-width:600px)" srcset="./medio.jpg"/>
+            
+            <img src="./pequeño.jpg" alt="rover en marte"/>
+        </picture>
+    </main>
+</body>
+</html>
